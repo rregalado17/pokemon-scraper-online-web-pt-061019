@@ -4,7 +4,7 @@ class Pokemon
   
 
   
-  def initialize(pokemon)
+  def initialize(id: nil, name:, type:, db: db)
     @name = pokemon[name]
     @type = pokemon[type]
     @id = pokemon[id]
