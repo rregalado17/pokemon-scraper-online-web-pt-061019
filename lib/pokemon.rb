@@ -9,7 +9,6 @@ class Pokemon
     @type = type
     @id = id
     @db = db
-
   end
 
   
